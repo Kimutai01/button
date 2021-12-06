@@ -68,3 +68,23 @@ a::before {
         transform: translate(0);
     }
 }
+@keyframes pink {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-60px, 60px);
+    }
+    40% {
+        transform: translate(60px, 60px);
+    }
+    60% {
+        transform: translate(-60px, -60px);
+    }
+    80% {
+        transform: translate(-60px, 60px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
