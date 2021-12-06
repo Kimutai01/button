@@ -1,0 +1,25 @@
+.main {
+    width: 70%;
+    min-height: 60vh;
+    border: solid red 2px;
+    /* Centering the box */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* centering the content, aka the button,inside of the box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    /* getting rid of the underline */
+    text-decoration: none;
+    color: #efefef;
+    background: #161724;
+    /* making button bigger */
+    padding: 2.5rem 5rem;
+    /* rounder border */
+    border-radius: 1.3rem;
+    position: relative;
+}
