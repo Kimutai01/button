@@ -23,3 +23,30 @@ a {
     border-radius: 1.3rem;
     position: relative;
 }
+a::after { 
+    content: "";
+    display: block;
+    /* Setting width and height to 100% creates a shape
+    that is the same size as its parent */
+    width: 100%;
+    height: 100%;
+    background: #fa01fd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 1.3rem;
+    color: #efefef;
+}
+a::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00f7f6;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 1.3rem;
+}
